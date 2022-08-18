@@ -1,2 +1,5 @@
 def divide(a, b):
-    return a/b
+    try:
+        c = a/b
+    except ZeroDivisionError:
+        print('Invalid!')
